@@ -1,0 +1,36 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp" xmlns:vm="clr-namespace:WpfApp.ViewModels"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" FontSize="16">
+
+    <Window.DataContext>
+        <vm:ViewModel></vm:ViewModel>
+    </Window.DataContext>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" MinHeight="65"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="3.5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" MinWidth="265"></ColumnDefinition>
+            <ColumnDefinition Width="1.9*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Margin="5" Grid.RowSpan="2">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Button Content="Start" Width="100" Height="30" Command="{Binding CommandJoin}" IsEnabled="{Binding ButtonJoinEnabled, Mode=OneWay}"></Button>
+                <TextBox Margin="5" TextWrapping="Wrap" Width="150" Text="{Binding Name, Mode=OneWayToSource}" IsEnabled="{Binding NameEnabled, Mode=OneWay}"></TextBox>
+            </StackPanel>
+            <Button Margin="5,0,0,0" Name="buttonStop" Content="Stop" Height="30" HorizontalAlignment="Stretch" Command="{Binding CommandDisconnection}" IsEnabled="{Binding ButtonStopEnabled, Mode=OneWay}"></Button>
+            <Button Margin="5,10,0,0" Name="buttonSendMessage" Content="SendMessage" Height="30" HorizontalAlignment="Stretch" IsEnabled="{Binding ButtonSendEnabled}" Command="{Binding CommandSendMessage, Mode=OneWay}"></Button>
+        </StackPanel>
+        <TextBox Margin="5" Grid.Column="2" Grid.RowSpan="2" Text="{Binding Message}"></TextBox>
+        <TextBox Grid.Row="2" Grid.ColumnSpan="2" Margin="5" Text="{Binding TextBlock, Mode=OneWay}"></TextBox>
+    </Grid>
+</Window>
