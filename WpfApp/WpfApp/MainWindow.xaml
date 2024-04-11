@@ -25,7 +25,7 @@
         <StackPanel Margin="5" Grid.RowSpan="2">
             <StackPanel Orientation="Horizontal" Margin="5">
                 <Button Content="Start" Width="100" Height="30" Command="{Binding CommandJoin}" IsEnabled="{Binding ButtonJoinEnabled, Mode=OneWay}"></Button>
-                <TextBox Margin="5" TextWrapping="Wrap" Width="150" Text="{Binding Name, Mode=OneWayToSource}" IsEnabled="{Binding NameEnabled, Mode=OneWay}"></TextBox>
+                <TextBox Margin="5" TextWrapping="Wrap" Width="140" Text="{Binding Name, Mode=OneWayToSource}" IsEnabled="{Binding NameEnabled, Mode=OneWay}"></TextBox>
             </StackPanel>
             <Button Margin="5,0,0,0" Name="buttonStop" Content="Stop" Height="30" HorizontalAlignment="Stretch" Command="{Binding CommandDisconnection}" IsEnabled="{Binding ButtonStopEnabled, Mode=OneWay}"></Button>
             <Button Margin="5,10,0,0" Name="buttonSendMessage" Content="SendMessage" Height="30" HorizontalAlignment="Stretch" IsEnabled="{Binding ButtonSendEnabled}" Command="{Binding CommandSendMessage, Mode=OneWay}"></Button>

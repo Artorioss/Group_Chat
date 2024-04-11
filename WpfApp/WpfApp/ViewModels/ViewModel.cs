@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Configuration;
-using System.Linq;
 using System.Net;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows;
 using WpfApp.Model;
 
@@ -15,17 +9,7 @@ namespace WpfApp.ViewModels
 {
     internal class ViewModel : BaseViewModel
     {
-        private bool _done = true; //флаг остановки следующего потока
-        private UdpClient _client;
-        private IPAddress _groupAddress; //групповой адрес рассылки
-        private int _localPort; //локальный порт для приема сообщений
-        private int _remotePort; //удаленный порт для отправки сообщений
-        private int _ttl;
-
-        private string _receivedMessage;
-
-        private IPEndPoint _remoteEP;
-        private UnicodeEncoding _encoding = new UnicodeEncoding();
+        private ChatClient _chatClient;
 
         private string _name; //Имя пользователя
         public string Name 
@@ -104,7 +88,7 @@ namespace WpfApp.ViewModels
             }
         }
 
-        private readonly SynchronizationContext _synchronizationContext;
+        //private readonly SynchronizationContext _synchronizationContext;
 
         public DelegateCommand CommandJoin { get; private set; } //Команда присоединения к чату
         public DelegateCommand CommandSendMessage { get; private set; } //Команда отправки сообщения
@@ -115,16 +99,17 @@ namespace WpfApp.ViewModels
             try 
             {
                 NameValueCollection configuration = ConfigurationManager.AppSettings;
-                _groupAddress = IPAddress.Parse(configuration["GroupAddress"]);
-                _localPort = int.Parse(configuration["LocalPort"]);
-                _remotePort = int.Parse(configuration["RemotePort"]);
-                _ttl = int.Parse(configuration["TTL"]);
+                IPAddress _groupAddress = IPAddress.Parse(configuration["GroupAddress"]);
+                int _localPort = int.Parse(configuration["LocalPort"]);
+                int  _remotePort = int.Parse(configuration["RemotePort"]);
+                int _ttl = int.Parse(configuration["TTL"]);
+                _chatClient = new ChatClient(_groupAddress, _localPort, _remotePort, _ttl);
+                _chatClient.MessageReceived += DisplayReceiveMessage;
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Не удалось считать файл конфигурации - {ex}", "Ошибка!", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-            _synchronizationContext = SynchronizationContext.Current;
 
             CommandJoin = new DelegateCommand((obj) => startSession());
             CommandSendMessage = new DelegateCommand((obj) => sendMessage());
@@ -135,17 +120,7 @@ namespace WpfApp.ViewModels
         {
             try
             {
-                _client = new UdpClient(_localPort);
-                _client.JoinMulticastGroup(_groupAddress, _ttl);
-                _remoteEP = new IPEndPoint(_groupAddress, _remotePort);
-
-                Thread receiver = new Thread(new ThreadStart(Listener));
-                receiver.IsBackground = true;
-                receiver.Start();
-
-                byte[] data = _encoding.GetBytes(Name + " присоединился к чату!");
-                _client.Send(data, data.Length, _remoteEP);
-
+                _chatClient.Start(Name);
                 UnlockItems();
             }
             catch(Exception ex)
@@ -154,42 +129,17 @@ namespace WpfApp.ViewModels
             }
         }
 
-        private void Listener() 
-        {
-            _done = false;
-
-            try
-            {
-                while (!_done)
-                {
-                    IPEndPoint endPoint = null;
-                    byte[] buffer = _client.Receive(ref endPoint);
-                    _receivedMessage = _encoding.GetString(buffer);
-                    _synchronizationContext.Post(x => DisplayReceiveMessage(), null);
-                }
-            }
-            catch(Exception ex)
-            {
-                if (_done)
-                    return;
-                else
-                    MessageBox.Show(ex.Message, "Ошибка!", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-        }
-
-        private void DisplayReceiveMessage() 
+        private void DisplayReceiveMessage(string receivedMessage) 
         {
             string time = DateTime.Now.ToString("t");
-            TextBlock = time + " " + _receivedMessage + "\r\n" + TextBlock;
-            _receivedMessage = string.Empty;
+            TextBlock = time + " " + receivedMessage + "\r\n" + TextBlock;
         }
 
         private void sendMessage()
         {
             try
             {
-                byte[] data = _encoding.GetBytes(Name + ": " + Message);
-                _client.Send(data, data.Length, _remoteEP);
+                _chatClient.SendMessage($"{Name}: {Message}");
                 Message = string.Empty;
             }
             catch(Exception ex) 
@@ -200,19 +150,7 @@ namespace WpfApp.ViewModels
 
         private void Disconnect() 
         {
-            StopListener();
-        }
-
-        private void StopListener() 
-        {
-            byte[] data = _encoding.GetBytes(Name + " покинул чат");
-            _client.Send(data, data.Length, _remoteEP);
-
-            _client.DropMulticastGroup(_groupAddress);
-            _client.Close();
-
-            _done = true;
-
+            _chatClient.Stop();
             UnlockItems();
         }
 

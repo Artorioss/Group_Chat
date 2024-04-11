@@ -1,29 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\wpfapp\\viewmodels\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|c:\\users\\artemiy\\desktop\\groupchat\\group_chat\\wpfapp\\wpfapp\\viewmodels\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|d:\\\u0440\u0430\u0437\u043D\u043E\u0435\\\u0438\u0441\u043F\u0440\u043E\\\u0447\u0430\u0441\u0442\u044C 2\\\u043B\u0430\u0431 5\\wpfapp\\wpfapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\wpfapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\wpfapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\wpfapp\\model\\chatclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\model\\chatclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\wpfapp\\model\\delegatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\model\\delegatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\wpfapp\\model\\delegatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\model\\delegatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23B9D86B-E26B-4EB4-871C-F049B6F8E7F1}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,25 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DelegateCommand.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\WpfApp\\Model\\DelegateCommand.cs",
-              "RelativeDocumentMoniker": "WpfApp\\Model\\DelegateCommand.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\WpfApp\\Model\\DelegateCommand.cs",
-              "RelativeToolTip": "WpfApp\\Model\\DelegateCommand.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAowBEAAAAJAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-03-15T08:48:01.03Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ViewModel.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\WpfApp\\ViewModels\\ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\ViewModels\\ViewModel.cs",
               "RelativeDocumentMoniker": "WpfApp\\ViewModels\\ViewModel.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\WpfApp\\ViewModels\\ViewModel.cs",
+              "ToolTip": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\ViewModels\\ViewModel.cs",
               "RelativeToolTip": "WpfApp\\ViewModels\\ViewModel.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAiAAAA",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAiwJEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T10:48:53.347Z",
               "EditorCaption": ""
@@ -69,33 +65,68 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "App.config",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\WpfApp\\App.config",
+              "DocumentMoniker": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\App.config",
               "RelativeDocumentMoniker": "WpfApp\\App.config",
-              "ToolTip": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\WpfApp\\App.config",
+              "ToolTip": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\App.config",
               "RelativeToolTip": "WpfApp\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-03-14T09:40:26.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T09:40:26.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatClient.cs",
+              "DocumentMoniker": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\Model\\ChatClient.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Model\\ChatClient.cs",
+              "ToolTip": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\Model\\ChatClient.cs",
+              "RelativeToolTip": "WpfApp\\Model\\ChatClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:20:22.968Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:28:09.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DelegateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\Model\\DelegateCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Model\\DelegateCommand.cs",
+              "ToolTip": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\Model\\DelegateCommand.cs",
+              "RelativeToolTip": "WpfApp\\Model\\DelegateCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T08:48:01.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\WpfApp\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\WpfApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\MainWindow.xaml",
               "RelativeToolTip": "WpfApp\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-14T09:34:35.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\WpfApp\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp\\App.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\WpfApp\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\App.xaml.cs",
               "RelativeToolTip": "WpfApp\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH\u002BSURBVDhP7ZRPaNNQHMe/TdNma2NrW1jUFYZYN0YKHqZischAMCCjh94siEfp0buIeBZ2LYKXHvSWQ4toDkKC0F7EU93NQyEthkFnG9uuaf6YhIcusknBHTz4gR\u002B/x\u002B/7e1/ee8l7IRzhmbi3s0TTzc3zcYQpp3R3K9sk0sJQJPtscgmcSzJ4\u002BeErPvemj99\u002B6t0j0sKEcF96SsbgV\u002BOX\u002BQvxyvu9A9zaSOL2\u002BrK8Zn9R6vU66QBomkYul0OpVNJns9mLYrGoE8mHhhPaImNoI4Nboikcmjb29TkYOr6dZtPbPM\u002BTDmAwGGAymaDb7Q44jttvt9tSoVDQiOyu8AhvPqo7\u002BqHVfP5OReXGCgQ\u002BiRU2BMMwSAcgSZIfiUQC5XIZLMs\u002BSKVSYj6f/\u002B7pgTPs9CbofTPw6E4WQj6JTAyYz\u002BdE/YXjONB1HaIoQtO03el0\u002BpBIQcPrq6Ybbr64jLOMA8e2/MnHYds2RqMR3C2nG43GGVJGmGSfm1evrI8PtMqltSzoMOVPOo5MJuN/GC/6/T5UVVU6nY7saYEVyrKMVquF8Xh8oplnIgjCz/DMTdMk6m\u002BGlmX5Z3bSNhchYHga/Df8e/59Q5pkn2g0CoqioCgKGIYh1T8zHA4Ri7mXnhB4barV6jX3hjzxmryffBG8VycSibyu1WqvSOk0AX4A4Q67Z\u002BxJ14gAAAAASUVORK5CYII=",
@@ -103,11 +134,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\WpfApp\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\App.xaml",
               "RelativeDocumentMoniker": "WpfApp\\App.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0437\u043D\u043E\u0435\\\u0418\u0421\u041F\u0420\u041E\\\u0427\u0430\u0441\u0442\u044C 2\\\u041B\u0430\u0431 5\\WpfApp\\WpfApp\\App.xaml",
+              "ToolTip": "C:\\Users\\Artemiy\\Desktop\\GroupChat\\Group_Chat\\WpfApp\\WpfApp\\App.xaml",
               "RelativeToolTip": "WpfApp\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-14T09:40:48.226Z"
